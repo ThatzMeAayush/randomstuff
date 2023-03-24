@@ -3,7 +3,7 @@ import pyautogui as pt
 import time
 
 print('''
-                                                        © Ayush Sahu *title by patorjk.com®™
+                                                        © Ayush Sahu
   ██████  ██▓███  ▓█████  ███▄ ▄███▓▓█████  ██▀███  
 ▒██    ▒ ▓██░  ██▒▓█   ▀ ▓██▒▀█▀ ██▒▓█   ▀ ▓██ ▒ ██▒
 ░ ▓██▄   ▓██░ ██▓▒▒███   ▓██    ▓██░▒███   ▓██ ░▄█ ▒
@@ -18,7 +18,8 @@ print('''
 limit = input("Enter limit:")
 message = input("Enter message:")
 i = 0
-time.sleep(5)
+print('Program will now wait for 7 seconds till then open the messaging app...')
+time.sleep(7)
 
 while i <= int(limit):
     pt.typewrite(message)     
